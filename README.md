@@ -1,16 +1,131 @@
-# React + Vite
+# Compliance Website – Research Analysts
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, responsive website designed to simplify regulatory compliance for research analysts. Built using React.js, Vite, and CSS, based on a Figma design.
 
-Currently, two official plugins are available:
+## 🌐 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This website provides an informative platform for research analysts to explore compliance support, regulatory filing assistance, risk protection, and consultation services.
 
-## React Compiler
+The design focuses on a clean user interface, responsive layouts, and easy navigation across desktop, tablet, and mobile devices.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the Oxlint configuration
+- Responsive navigation bar
+- Hero section with banner illustration
+- About Us section
+- Our Services section
+- Hassle-Free Filings
+- Regulatory Clarity
+- Risk Protection
+- Pricing section
+- Frequently Asked Questions (FAQ)
+- Contact section
+- Responsive mobile navigation menu
+- Smooth scrolling between sections
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js
+- **Build Tool:** Vite
+- **Styling:** CSS3
+- **Languages:** JavaScript, HTML5, CSS3
+- **Design Reference:** Figma
+- **Version Control:** Git & GitHub
+
+## 📁 Project Structure
+
+```text
+compliance-website/
+│
+├── public/
+│   └── assets/
+│       ├── Banner Image.png
+│       ├── Logo.png
+│       ├── Section2-Image.png
+│       ├── Home.png
+│       ├── AboutUs.png
+│       ├── Our Services.png
+│       ├── Pricing.png
+│       ├── FAQ.png
+│       ├── Contact.png
+│       └── Other Images & Icons
+│
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+```
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd compliance-website
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+### 5. Open in browser
+
+```text
+http://localhost:5173/
+```
+
+## 📱 Responsive Design Testing
+
+The website was tested at the following target viewport sizes:
+
+| Device | Width | Height |
+|---|---:|---:|
+| Desktop | 1400px | 900px |
+| Laptop | 1280px | 800px |
+| Tablet | 768px | 1024px |
+| Mobile | 375px | 812px |
+
+Responsive testing was performed using Chrome Developer Tools.
+
+## 🎨 Design Reference
+
+The website implementation is based on a provided Figma design, with supplied images and icons.
+
+## 🚀 Future Improvements
+
+- Functional contact form with backend integration
+- Dynamic pricing plans
+- Expanded FAQ functionality
+- Improved accessibility
+- Deployment and performance optimization
+
+## 👨‍💻 Author
+
+**Sanket Kolhe**
+
+Computer Engineering | React.js Developer
+
+---
+
+⭐ If you like this project, consider giving the repository a star!
